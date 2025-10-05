@@ -9,15 +9,17 @@
 * Using **Docker volumes** to update the site dynamically
 
 * Understanding **image → container** workflow
+---
 
 ### Step 1: Create Project Folder Structure 
 
-1. mkdir portfolio-site
-2. cd portfolio-site
+1. mkdir **portfolio-site**
+2. cd **portfolio-site**
+---
 
 ### Step 2: Add Your Website Files
 
-* index.html
+* **index.html**
 
 ```<!DOCTYPE html>
 <html lang="en">
@@ -45,7 +47,7 @@
 </body>
 </html>
 ```
-* Style.css
+* **Style.css**
 
 ```body {
     font-family: Arial, sans-serif;
@@ -79,6 +81,7 @@ footer {
 }
 a { color: #58a6ff; text-decoration: none; }
 ```
+---
 
 ### Step 3: Create Dockerfile
 
@@ -95,17 +98,25 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
+---
+
 ### Step 4: Build docker image
 
 ```docker build -t portfolio-site .```
+
+---
 
 ### Step 5: Run the container
 
 ```docker run -d -p 8080:80 --name my-portfolio portfolio-site```
 
+---
+
 ### Step 6: Verify running container
 
 ``` docker ps ```
+
+---
 
 ### Step 7: Check your site 
 
