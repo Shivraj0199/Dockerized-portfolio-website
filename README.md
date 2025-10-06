@@ -116,6 +116,8 @@ CMD ["nginx", "-g", "daemon off;"]
 
 ``` docker ps ```
 
+![](https://github.com/Shivraj0199/Dockerized-portfolio-website/blob/main/Img/Screenshot%202025-10-06%20115824.png)
+
 ---
 
 ### Step 7: Check your site 
@@ -123,4 +125,6 @@ CMD ["nginx", "-g", "daemon off;"]
 ``` http://127.0.0.1:8080``` or ```http://localhost:8080```
 
 ``` http://(ec2-pubic-ip):8080 ```
+
+![](https://github.com/Shivraj0199/Dockerized-portfolio-website/blob/main/Img/Screenshot%202025-10-06%20115309.png)
 
