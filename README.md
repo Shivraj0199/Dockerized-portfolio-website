@@ -9,6 +9,9 @@
 * Using **Docker volumes** to update the site dynamically
 
 * Understanding **image → container** workflow
+
+![](https://github.com/Shivraj0199/Dockerized-portfolio-website/blob/main/Img/Screenshot%202025-10-06%20121617.png)
+
 ---
 
 ### Step 1: Create Project Folder Structure 
